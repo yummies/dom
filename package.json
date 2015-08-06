@@ -37,7 +37,7 @@
     "mocha-jsdom": "1.0.x"
   },
   "scripts": {
-    "build": "rm index.js server.js && babel lib/ -d .",
+    "build": "babel lib/ -d .",
     "dev": "npm run build -- -w",
     "lint": "eslint --ext .es6 lib/ test/",
 
