@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "react-dom": "0.14.x",
-    "@yummies/core": "0.1.x",
+    "@yummies/core": "0.2.x",
     "babel-runtime": "5.8.x"
   },
   "devDependencies": {
