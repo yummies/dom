@@ -41,11 +41,11 @@
     "lint": "eslint lib test",
 
     "coverage": "rm -rf coverage/ && isparta cover _mocha -i lib/*.js -- -r babel/register test/setup.js test/lib/*.js",
-    "coverage-dev": "chokidar 'test/lib/*.js' -c 'npm run coverage' --initial",
+    "tdd": "chokidar 'test/lib/*.js' -c 'npm run coverage' --initial",
     "test": "npm run lint && npm run coverage",
-    "travis": "npm run test && cat coverage/lcov.info | coveralls",
+    "travis": "npm test && cat coverage/lcov.info | coveralls",
 
-    "prepush": "npm run test",
+    "prepush": "npm test",
     "prepublish": "npm run build"
   },
   "engines": {
