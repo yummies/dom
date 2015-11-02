@@ -4,5 +4,4 @@ coverage/
 *.sublime-*
 *.log
 .DS_Store
-index.js
-server.js
+build/
