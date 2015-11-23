@@ -40,3 +40,15 @@ import YummiesDOMServer from '@yummies/dom/server';
 
 YummiesDOMServer.renderToStaticMarkup({ block: 'my-component' });
 ```
+
+### Babel environment
+
+There are couple of things worth noticing if you use `babel`.
+
+Since `1.x.x` `babel-runtime` is not included anymore and we inline all helpers. We do it in case to support IE9-10. It may insignificantly increase bundle size, but other than that everything should work fine even if you use `babel-runtime` in your application.
+
+If you need to support IE9-10, you should include on `spec.protoToAssign` into `optional` in your `.babelrc`. This will fix some inheritance incompatibility issues. If you don't need IE9-10, no additional moves required.
+
+### Old browsers support
+
+Please note that IE8 is supported only in `0.x.x` legacy branch. Starting from `1.x.x` only IE9 and higher are supported. We are going to keep updating a legacy branch in parallel for some time (until IE8 would not become history).
