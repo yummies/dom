@@ -2,6 +2,7 @@
 [![travis](http://img.shields.io/travis/yummies/dom.svg?style=flat-square)](https://travis-ci.org/yummies/dom)
 [![coverage](http://img.shields.io/coveralls/yummies/dom/master.svg?style=flat-square)](https://coveralls.io/r/yummies/dom)
 [![deps](http://img.shields.io/david/yummies/dom.svg?style=flat-square)](https://david-dm.org/yummies/dom)
+[![dev deps](http://img.shields.io/david/dev/yummies/dom.svg?style=flat-square)](https://david-dm.org/yummies/dom#info=devDependencies)
 
 YummiesDOM reflects the same connection with [Yummies](https://github.com/yummies/yummies) as `react@>=0.14` has with [ReactDOM](https://github.com/facebook/react/tree/master/packages/react-dom)
 
