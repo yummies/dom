@@ -1,6 +1,6 @@
 {
   "name": "@yummies/dom",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ReactDOM ❤︎ BEM",
   "keywords": [ "yummies", "react", "bem", "bemjson" ],
   "homepage": "https://github.com/yummies/dom",
